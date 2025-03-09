@@ -20,13 +20,6 @@ header {
     border-bottom: 2px solid #0073e6;
 }
 
-header img {
-    width: 120px;
-    height: 120px;
-    border-radius: 50%;
-    object-fit: cover;
-}
-
 header h1 {
     font-size: 24px;
     margin: 10px 0;
@@ -54,22 +47,58 @@ ul {
     list-style-type: disc;
 }
 
+/* Ensure text inside projects remains black */
 .project {
     background: #f9f9f9;
-    padding: 10px;
+    padding: 15px;
     margin: 10px 0;
     border-left: 5px solid #0073e6;
+    transition: 0.3s;
+    border-radius: 5px;
+    cursor: pointer;
+    color: #333; /* Keeps the project description text black */
 }
 
-.contact a {
+.project h4 {
+    color: #0073e6; /* Keeps the title in blue like a link */
+    margin-bottom: 5px;
+}
+
+.project ul {
+    padding-left: 20px;
+}
+
+.project ul li {
+    color: #333; /* Ensures list items remain black */
+}
+
+.project:hover {
+    background: #e6f2ff;
+    border-left: 5px solid #005bb5;
+    transform: scale(1.02);
+}
+
+/* Remove default link styling but keep the title clickable */
+.project-card {
+    text-decoration: none;
+    display: block;
+    color: inherit; /* Keeps inherited colors */
+}
+
+.project-card:hover h4 {
+    text-decoration: underline;
+    color: #005bb5;
+}
+
+/* Styling for clickable links */
+.link {
     color: #0073e6;
     text-decoration: none;
+    font-weight: bold;
+    transition: 0.3s;
 }
 
-.contact a:hover {
+.link:hover {
     text-decoration: underline;
-}
-
-.languages, .interests, .co-curricular {
-    margin-top: 20px;
+    color: #005bb5;
 }
