@@ -47,7 +47,7 @@ ul {
     list-style-type: disc;
 }
 
-/* Ensure text inside projects remains black */
+/* Ensure project text stays black */
 .project {
     background: #f9f9f9;
     padding: 15px;
@@ -56,33 +56,46 @@ ul {
     transition: 0.3s;
     border-radius: 5px;
     cursor: pointer;
-    color: #333; /* Keeps the project description text black */
+    color: #333; /* Keeps text black */
 }
 
+/* Ensure title stays blue like a link */
 .project h4 {
-    color: #0073e6; /* Keeps the title in blue like a link */
+    color: #0073e6;
     margin-bottom: 5px;
 }
 
-.project ul {
-    padding-left: 20px;
-}
-
+/* Ensure list items stay black */
 .project ul li {
-    color: #333; /* Ensures list items remain black */
+    color: #333;
 }
 
+/* Remove default mobile link styles */
+.project-card {
+    text-decoration: none;
+    display: block;
+    color: inherit;
+}
+
+/* Prevent blue link color on mobile */
+.project-card:visited,
+.project-card:link,
+.project-card:active {
+    color: inherit;
+    text-decoration: none;
+}
+
+/* Remove blue outline on tap */
+.project-card:focus,
+.project-card:focus-visible {
+    outline: none;
+}
+
+/* Hover effects */
 .project:hover {
     background: #e6f2ff;
     border-left: 5px solid #005bb5;
     transform: scale(1.02);
-}
-
-/* Remove default link styling but keep the title clickable */
-.project-card {
-    text-decoration: none;
-    display: block;
-    color: inherit; /* Keeps inherited colors */
 }
 
 .project-card:hover h4 {
