@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Ismail Bin Asim - CV</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" />
+</head>
+<body>
+    <div class="cv-container" itemscope itemtype="https://schema.org/Person">
+        <header>
+            <h1 itemprop="name">ISMAIL BIN ASIM</h1>
+            <h2 itemprop="jobTitle">Android App Developer</h2>
+        </header>
+
+        <section class="about">
+            <p itemprop="description">I have been learning Android application development for the past 2 years and have gained experience through freelance projects. I am good at building Android applications using both XML and Jetpack Compose for UI development, with Java and Kotlin as my programming languages.</p>
+        </section>
+
+        <section class="projects">
+            <h3>Projects</h3>
+            <div itemprop="makesOffer" itemscope itemtype="https://schema.org/Offer">
+                <a href="https://github.com/Ismail-AD/AlarmApp" class="project-card" itemprop="url">
+                    <div class="project">
+                        <h4 itemprop="name">Alarmy App</h4>
+                        <ul itemprop="description">
+                            <li>Wake-Up Challenge System – Keeps ringing until the assigned mission is completed.</li>
+                            <li>Various Missions – Solve math problems, rearrange shapes/numbers/alphabets, write a sentence, upload a stored image, or use location-based alarm termination.</li>
+                        </ul>
+                    </div>
+                </a>
+            </div>
+            <div itemprop="makesOffer" itemscope itemtype="https://schema.org/Offer">
+                <a href="https://play.google.com/store/apps/details?id=com.acedevelopers.figmaexport" class="project-card" itemprop="url">
+                    <div class="project">
+                        <h4 itemprop="name">Learn C++</h4>
+                        <ul itemprop="description">
+                            <li>Learning through example programs and solutions.</li>
+                            <li>Code snippet sharing.</li>
+                            <li>Compiler for writing and testing code.</li>
+                        </ul>
+                    </div>
+                </a>
+            </div>
+            <div itemprop="makesOffer" itemscope itemtype="https://schema.org/Offer">
+                <a href="https://www.linkedin.com/posts/muhammad-ismail-asim_android-activity-7224389312149127170-pZxR?utm_source=share&utm_medium=member_desktop&rcm=ACoAAEYSN7EBBijfzMzrXPbPkPUHnjm9oK5iuU8" class="project-card" itemprop="url">
+                    <div class="project">
+                        <h4 itemprop="name">PrintItOut</h4>
+                        <ul itemprop="description">
+                            <li>Displays a list of paired Bluetooth printers for selection.</li>
+                            <li>Print the entire collection of orders or a single order.</li>
+                            <li>Automatically fetch and print new orders every minute.</li>
+                        </ul>
+                    </div>
+                </a>
+            </div>
+        </section>
+
+        <section class="skills">
+            <h3>Skills</h3>
+            <ul>
+                <li><strong>UI Development:</strong> <span itemprop="knowsAbout">XML</span>, <span itemprop="knowsAbout">Jetpack Compose</span></li>
+                <li><strong>Databases:</strong> <span itemprop="knowsAbout">Firebase Realtime</span>, <span itemprop="knowsAbout">Firestore</span>, <span itemprop="knowsAbout">Supabase</span>, <span itemprop="knowsAbout">SQLite</span></li>
+                <li><strong>Languages:</strong> <span itemprop="knowsAbout">Kotlin</span>, <span itemprop="knowsAbout">Java</span>, <span itemprop="knowsAbout">C++</span></li>
+            </ul>
+        </section>
+
+        <section class="achievements">
+            <h3>Achievements</h3>
+            <ul>
+                <li itemprop="award"><a href="https://leetcode.com/u/ismail_asim_024/" target="_blank" class="link">135+ problems on LeetCode</a></li>
+                <li itemprop="award">Participated in 2 Hackathons</li>
+                <li itemprop="award"><a href="https://play.google.com/store/apps/details?id=com.acedevelopers.figmaexport" target="_blank" class="link">Play Store app with over 10,000 downloads</a></li>
+            </ul>
+        </section>
+
+        <section class="education">
+            <h3>Education</h3>
+            <div itemprop="alumniOf" itemscope itemtype="https://schema.org/EducationalOrganization">
+                <p><strong itemprop="name">University of Sargodha</strong> <br> 
+                    <span itemprop="educationalCredentialAwarded">Bachelors of Computer Sciences</span> (3.59/4.0) <br> 
+                    <span itemprop="startDate">2021</span> - <span itemprop="endDate">2025</span></p>
+            </div>
+            <div itemprop="alumniOf" itemscope itemtype="https://schema.org/EducationalOrganization">
+                <p><strong itemprop="name">Reader College Sargodha</strong> <br> 
+                    <span itemprop="educationalCredentialAwarded">FSC Pre-Engineering</span> <br> 
+                    <span itemprop="startDate">2019</span> - <span itemprop="endDate">2021</span></p>
+            </div>
+        </section>
+
+        <section class="contact">
+            <h3>Contact</h3>
+            <p><i class="fas fa-phone"></i> <span itemprop="telephone">+92326-0111223</span></p>
+            <p><i class="fab fa-linkedin"></i> <a href="http://linkedin.com/in/muhammad-ismail-asim" target="_blank" class="link" itemprop="sameAs">LinkedIn</a></p>
+            <p><i class="fas fa-envelope"></i> <a href="mailto:muhammadismailbinasim024@gmail.com" class="link" itemprop="email">muhammadismailbinasim024@gmail.com</a></p>
+        </section>
+
+        <section class="languages">
+            <h3>Languages</h3>
+            <p><span itemprop="knowsLanguage">Urdu</span> | <span itemprop="knowsLanguage">English</span></p>
+        </section>
+
+        <section class="interests">
+            <h3>Interests</h3>
+            <ul>
+                <li><span itemprop="hobbies">🎮 Video Games</span></li>
+                <li><span itemprop="hobbies">📺 Watching Anime</span></li>
+                <li><span itemprop="hobbies">💻 Learning new Android stuff</span></li>
+            </ul>
+        </section>
+    </div>
+</body>
+</html>
